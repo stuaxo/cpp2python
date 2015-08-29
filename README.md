@@ -11,8 +11,8 @@ For better result, it is recomented to format your code to ANSI style before doi
 
 Usage:
     
-    cpp2python.py DIR|FILE
-    cpp2python.py -v|--version|-h|--help
+    cpp2python DIR|FILE
+    cpp2python -v|--version|-h|--help
 
 When directory name is given - tries to find source files by C/C++ suffixes, when file name is given - processes given file
 
