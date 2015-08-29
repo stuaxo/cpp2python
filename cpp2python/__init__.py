@@ -25,8 +25,9 @@ import sys
 import os.path
 import re
 
+suffixes = ('.cpp', '.c', '.cxx', '.c++', '.cc', '.h', '.hpp', '.hxx', '.h++')
+
 def is_source(filename):
-    suffixes = ('.cpp', '.c', '.cxx', '.c++', '.cc', '.h', '.hpp', '.hxx', '.h++')
     for s in suffixes:
         if filename.endswith(s):
             return True

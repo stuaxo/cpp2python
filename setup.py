@@ -99,6 +99,8 @@ setup(
     ],
     keywords='cpp python',
 
+    packages = ["cpp2python"],
+    
     entry_points = {
             'console_scripts': [
                 'cpp2python = cpp2python:main'
